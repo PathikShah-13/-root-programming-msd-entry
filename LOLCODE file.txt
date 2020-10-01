@@ -1,0 +1,64 @@
+HAI 1.2
+
+   I HAS A num1
+   I HAS A num2
+   I HAS A op 
+   
+   VISIBLE "IMP :: This calculator does not support decimal values hence do not input any, moreover if the answer is a decimal value then 0 is shown :)"
+
+   VISIBLE "Enter the first number ::"
+   GIMMEH num1
+   
+   VISIBLE "Enter the value of the second number ::"
+   GIMMEH num2
+   
+   VISIBLE "Enter the operator ::   [+ - * /]"
+   GIMMEH op 
+   
+   op, WTF?
+   OMG "+"
+      VISIBLE SUM OF num1 AN num2
+      
+      GTFO
+
+   OMG "-"
+      VISIBLE DIFF OF num1 AN num2
+
+      GTFO
+   OMG "*"
+      VISIBLE PRODUKT OF num1 AN num2
+      
+      GTFO
+
+   OMG "/"
+      VISIBLE QUOSHUNT OF num1 AN num2
+
+      GTFO
+   OMGWTF
+      VISIBLE "Enter a valid operator"
+   OIC
+
+
+   VISIBLE " BONUS SECTION ! :) If you want to calculate the factorial of a number enter 'yes' otherwise 'no' "
+   I HAS A option 
+   GIMMEH option 
+
+   BOTH SAEM option AN "yes", O RLY?
+    YA RLY
+      VISIBLE "Enter the number whose factorial you want ::"
+      I HAS A n
+      GIMMEH n
+
+      I HAS A fact ITZ 1 
+      I HAS A i ITZ 0
+      IM IN YR LOOP UPPIN YR i TIL BOTH SAEM i AN n    
+        fact R PRODUKT OF fact AN SUM OF i AN 1    
+      IM OUTTA YR LOOP
+
+      VISIBLE fact
+    NO WAI 
+      VISIBLE "meh,  ...you're boring"
+	  
+	OIC
+
+KTHXBYE
